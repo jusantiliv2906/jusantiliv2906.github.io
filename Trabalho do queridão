@@ -1,0 +1,35 @@
+Qual a diferença entre as tags <b> e  <p> ? 
+As tags <b> e <p> são utilizadas em linguagens de marcação como o HTML para formatar e estruturar o conteúdo de uma página web. 
+
+A tag <b> é utilizada para aplicar o efeito de negrito ao texto contido dentro dela. Por exemplo, ao escrever <b>Texto em negrito</b>, o texto "Texto em negrito" será exibido com a formatação de negrito no navegador.
+
+Já a tag <p> é utilizada para definir parágrafos no texto. Ela cria um espaço vertical entre o texto que a precede e o que a segue, indicando uma separação entre os parágrafos. Por exemplo, ao escrever <p>Primeiro parágrafo</p><p>Segundo parágrafo</p>, os textos "Primeiro parágrafo" e "Segundo parágrafo" serão exibidos em parágrafos distintos na página.
+
+Em resumo, enquanto a tag <b> é utilizada para alterar a formatação do texto para negrito, a tag <p> é utilizada para estruturar o conteúdo em parágrafos separados.
+
+Qual o erro na linha de código <p<center> texto </p<center> ?
+Na linha de código <p<center> texto </p<center>, há um erro de estrutura e uso das tags HTML. 
+
+A tag <p> é utilizada para definir parágrafos no texto, enquanto a tag <center> é usada para centralizar o conteúdo na página. No entanto, o erro está em como as tags estão sendo combinadas.
+
+Para corrigir o código e centralizar o texto dentro de um parágrafo, você pode fazer da seguinte forma:
+
+<p style="text-align: center;">texto</p>
+
+Dessa forma, o texto dentro do parágrafo será centralizado na página, respeitando a estrutura e a formatação adequada das tags HTML.
+
+Explique como funciona a tag <a href> ?
+A tag <a> em HTML é utilizada para criar links em uma página web. Atribuindo um endereço URL ao atributo href (hiperlink de referência), você pode direcionar o usuário para outra página da web, um arquivo, um email ou qualquer outro recurso online.
+
+A estrutura básica da tag <a> com o atributo href é a seguinte:
+
+<a href="URL_do_destino">Texto de âncora</a>
+
+- href: Este atributo especifica o endereço para o qual o link deve direcionar. Pode ser um URL absoluto (completo, incluindo http://) ou relativo (apenas parte do caminho a partir do diretório atual).
+- Texto de âncora: Este é o texto que será exibido no navegador como o link clicável. Quando o usuário clica nesse texto, ele é redirecionado para o URL especificado no atributo href.
+
+Por exemplo, se você quiser criar um link para o Google com o texto "Ir para o Google", o código HTML seria assim:
+
+<a href="https://www.google.com">Ir para o Google</a>
+
+Ao clicar no texto "Ir para o Google", o usuário será redirecionado para a página inicial do Google. Essa é a funcionalidade básica da tag <a href> em HTML.
